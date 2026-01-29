@@ -343,6 +343,7 @@ a {
     gap: 4rem;
     align-items: center;
     margin-top: 2rem;
+
 }
 
 .skills-list {
@@ -675,6 +676,11 @@ a {
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+    #about, #contact, #projects {
+        padding: 100px 2rem;
+    }
+}
 @media (max-width: 900px) {
     h1 { font-size: 2.8rem; }
     
@@ -692,7 +698,10 @@ a {
 
     .about-grid {
         grid-template-columns: 1fr;
+       
     }
+
+   
 
     .contact-wrapper {
         grid-template-columns: 1fr;
