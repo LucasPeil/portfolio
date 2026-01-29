@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas | Desenvolvedor Web Criativo</title>
+    <meta name="description" content="Portfolio de Lucas, um Desenvolvedor Web Criativo especializado em experiências web modernas e interativas.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+
+    <header class="glass-nav">
+        <nav class="container">
+            <a href="#" class="logo">Lucas<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-item">Sobre</a>
+                <a href="#projects" class="nav-item">Projetos</a>
+                <a href="#contact" class="nav-item">Contato</a>
+                <a href="#" class="btn btn-outline">Currículo</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Alternar Navegação">
+                <i data-feather="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section container">
+            <div class="hero-content fade-in-up">
+                <span class="badge">Desenvolvedor Web</span>
+                <h1>Criando <span class="text-gradient">experiências</span> digitais que importam.</h1>
+                <p>Olá, eu sou o Lucas. Eu construo aplicações web acessíveis, robustas e performantes com foco na experiência do usuário.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-ghost">Fale Comigo</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up" style="animation-delay: 0.2s;">
+                <div class="image-wrapper">
+                    <img src="assets/image.jpg" alt="Lucas - Desenvolvedor Web">
+                    <div class="floating-card card-1">
+                        <i data-feather="code"></i>
+                        <span>Código Limpo</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i data-feather="layout"></i>
+                        <span>Design UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section container section-padding">
+            <div class="section-header fade-in-up">
+                <h2>Sobre Mim</h2>
+                <p>Um pouco sobre quem eu sou e o que eu faço.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text fade-in-up">
+<!--                     <p>Sou um Desenvolvedor Web apaixonado com talento para criar sites limpos, modernos e amigáveis ao usuário. Com uma base sólida em HTML, CSS e JavaScript, adoro transformar problemas complexos em designs simples, bonitos e intuitivos.</p>
+                    <p>Quando não estou codificando, você pode me encontrar explorando novas tecnologias, contribuindo para projetos de código aberto ou desfrutando de uma boa xícara de café.</p> -->
+                    <p>Sou Desenvolvedor Web com formação em Análise e Desenvolvimento de Sistemas e com 3+ anos de experiência. Atuo na concepção, desenvolvimento e manutenção de sistemas de alta performance e arquiteturas escaláveis. e com talento para criar sites limpos, modernos e amigáveis ao usuário. 
+                    Com uma base sólida em HTML, CSS e JavaScript, React.js, Node.js, MongoDB e PostgresSQL adoro transformar problemas complexos em soluções simples, intuitivas e performáticas.</p>
+                    <p>Voces quer tirar uma projeto do papel? Vou te ajudar a transformar essa ideia em realidade.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">PostgresSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">GraphQl</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">API Rest</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Python</span>
+
+                    </div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass-card fade-in-up" style="animation-delay: 0.1s;">
+                        <i data-feather="monitor"></i>
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Construindo aplicações web rápidas, performáticas e adaptadas às suas necessidades.</p>
+                    </div>
+
+                    <div class="service-card glass-card fade-in-up" style="animation-delay: 0.2s;">
+                        <i data-feather="pen-tool"></i>
+                        <h3>Design de UI</h3>
+                        <p>Projetando interfaces de usuário intuitivas e estéticas.</p>
+                    </div>
+                    <div class="service-card glass-card fade-in-up" style="animation-delay: 0.3s;">
+                        <i data-feather="smartphone"></i>
+                        <h3>Responsividade</h3>
+                        <p>Garantindo que seu site fique ótimo em todos os dispositivos.</p>
+                    </div>
+                </div> do p
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section container section-padding">
+            <div class="section-header fade-in-up">
+                <h2>Projetos em Destaque</h2>
+                <p>Confira alguns dos meus trabalhos recentes.</p>
+            </div>
+            
+            <!-- Swiper Carousel -->
+            <div class="swiper-container featured-projects swiper fade-in-up">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <a href="#" target="_blank" class="project-card-link">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/project1.png" alt="Dashboard de Analytics">
+                                    <div class="overlay">
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3>Dashboard de Gerencimanento de atividades</h3>
+                                    <p>Um dashboard abrangente para gerenciar atividades domesticas, de lazer e educacionais.</p>
+                                    <div class="project-tags">
+                                        <span>React</span>
+                                        <span>Node.js</span>
+                                        <span>Express.js</span>
+                                        <span>GraphQl</span>
+                                        <span>MongoDB</span>
+                                        <span>MUI</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <a href="#" target="_blank" class="project-card-link">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/project2.png" alt="Plataforma de E-commerce">
+                                    <div class="overlay">
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3>Forniture</h3>
+                                    <p>Uma plataforma de e-commerce de móveis.</p>
+                                    <div class="project-tags">
+                                        <span>React.js</span>
+                                        <span>RTK Query</span>
+                                        <span>MUI</span>
+                                        <span>Node.js</span>
+                                        <span>Express.js</span>
+                                        <span>GraphQl</span>
+                                        <span>MongoDB</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <a href="#" target="_blank" class="project-card-link">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/project3.png" alt="Aplicativo de Viagem">
+                                    <div class="overlay">
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3>Buscador de séries e filmes</h3>
+                                    <p>Um site para buscar filmes e séries e salva-las na sua lista de favoritos.</p>
+                                    <div class="project-tags">
+                                        <span>Next.js</span>
+                                        <span>Tailwind CSS</span>
+                                        <span>Prisma</span>
+                                        <span>PostgreSQL</span>
+                                        <span>Node.js</span>
+                                        <span>Express.js</span>
+                                        
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Swiper Navigation/Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section container section-padding">
+            <div class="glass-card contact-wrapper fade-in-up">
+                <div class="contact-content">
+                    <h2>Vamos trabalhar juntos</h2>
+                    <p>Tem um projeto em mente? Preencha os detalhes abaixo e entrarei em contato em breve.</p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i data-feather="mail"></i>
+                            <span>ola@lucas.dev</span>
+                        </div>
+                        <div class="info-item">
+                            <i data-feather="map-pin"></i>
+                            <span>São Paulo, Brasil</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" rows="4" placeholder="Conte-me sobre o seu projeto..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <p>&copy; 2024 Lucas. Todos os direitos reservados.</p>
+        <div class="footer-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
