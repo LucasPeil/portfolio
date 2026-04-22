@@ -121,4 +121,46 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     `;
   document.head.appendChild(style);
+    // Contact Form Submit Handling (WhatsApp)
+    const whatsappForm = document.getElementById('whatsappForm');
+    const waMessage = document.getElementById('waMessage');
+    const charCount = document.getElementById('charCount');
+
+    // Update character count on input
+    if (waMessage && charCount) {
+        waMessage.addEventListener('input', function () {
+            const currentLength = this.value.length;
+            charCount.textContent = `${currentLength} / 150 caracteres`;
+
+            // Changed from --text-muted to --text-secondary to match your styles.css
+            if (currentLength >= 140) {
+                charCount.style.color = '#ff6b6b'; // Redish color for alert
+            } else {
+                charCount.style.color = 'var(--text-secondary)';
+            }
+        });
+    }
+
+    if (whatsappForm) {
+        whatsappForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('waName').value;
+            const message = document.getElementById('waMessage').value;
+      
+            const numeroWhatsApp = '5553981157066';
+
+            const textoFormatado = `Olá, meu nome é ${name}.%0A%0A${message}`;
+            const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${textoFormatado}`;
+
+            window.open(urlWhatsApp, '_blank');
+            whatsappForm.reset();
+            
+            // Reset character count display after submitting
+            if (charCount) {
+                charCount.textContent = '0 / 150 caracteres';
+                charCount.style.color = 'var(--text-secondary)';
+            }
+        });
+    }
 });

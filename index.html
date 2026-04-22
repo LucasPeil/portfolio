@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas | Desenvolvedor Web Criativo</title>
-    <meta name="description" content="Portfolio de Lucas, um Desenvolvedor Web Criativo especializado em experiências web modernas e interativas.">
-    
+    <meta name="description"
+        content="Portfolio de Lucas, um Desenvolvedor Web Criativo especializado em experiências web modernas e interativas.">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- Icons -->
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
     <div class="noise-overlay"></div>
     <div class="gradient-sphere sphere-1"></div>
@@ -40,12 +43,13 @@
         </nav>
     </header>
 
-    <main >
+    <main>
         <section id="hero" class="hero-section container">
             <div class="hero-content fade-in-up">
                 <span class="badge">Desenvolvedor Web</span>
                 <h1>Criando <span class="text-gradient">experiências</span> digitais que importam.</h1>
-                <p>Olá, eu sou o Lucas. Eu construo aplicações web acessíveis, robustas e performantes com foco na experiência do usuário.</p>
+                <p>Olá, eu sou o Lucas. Eu construo aplicações web acessíveis, robustas e performantes com foco na
+                    experiência do usuário.</p>
                 <div class="hero-actions">
                     <a href="#projects" class="btn btn-primary">Ver Projetos</a>
                     <a href="#contact" class="btn btn-ghost">Fale Comigo</a>
@@ -66,17 +70,20 @@
             </div>
         </section>
 
-        <section  id="about" class="about-section container section-padding">
+        <section id="about" class="about-section container section-padding">
             <div class="section-header fade-in-up">
                 <h2>Sobre Mim</h2>
                 <p>Um pouco sobre quem eu sou e o que eu faço.</p>
             </div>
             <div class="about-grid">
                 <div class="about-text fade-in-up">
-<!--                     <p>Sou um Desenvolvedor Web apaixonado com talento para criar sites limpos, modernos e amigáveis ao usuário. Com uma base sólida em HTML, CSS e JavaScript, adoro transformar problemas complexos em designs simples, bonitos e intuitivos.</p>
+                    <!--                     <p>Sou um Desenvolvedor Web apaixonado com talento para criar sites limpos, modernos e amigáveis ao usuário. Com uma base sólida em HTML, CSS e JavaScript, adoro transformar problemas complexos em designs simples, bonitos e intuitivos.</p>
                     <p>Quando não estou codificando, você pode me encontrar explorando novas tecnologias, contribuindo para projetos de código aberto ou desfrutando de uma boa xícara de café.</p> -->
-                    <p>Sou Desenvolvedor Web com formação em Análise e Desenvolvimento de Sistemas e com 3+ anos de experiência. Atuo na concepção, desenvolvimento e manutenção de sistemas de alta performance e arquiteturas escaláveis, criando sites limpos, modernos e amigáveis ao usuário. 
-                    Com uma base sólida em HTML, CSS e JavaScript, React.js, Node.js, MongoDB e PostgresSQL adoro transformar problemas complexos em soluções simples, intuitivas e performáticas.</p>
+                    <p>Sou Desenvolvedor Web com formação em Análise e Desenvolvimento de Sistemas e com 3+ anos de
+                        experiência. Atuo na concepção, desenvolvimento e manutenção de sistemas de alta performance e
+                        arquiteturas escaláveis, criando sites limpos, modernos e amigáveis ao usuário.
+                        Com uma base sólida em HTML, CSS e JavaScript, React.js, Node.js, MongoDB e PostgresSQL adoro
+                        transformar problemas complexos em soluções simples, intuitivas e performáticas.</p>
                     <p>Voces quer tirar uma projeto do papel? Vou te ajudar a transformar essa ideia em realidade.</p>
                     <div class="skills-list">
                         <span class="skill-tag">HTML5</span>
@@ -115,33 +122,225 @@
                         <h3>Responsividade</h3>
                         <p>Garantindo que seu site fique ótimo em todos os dispositivos.</p>
                     </div>
-                </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section container section-padding">
+            <div class="section-header fade-in-up">
+                <h2>Experiência Profissional</h2>
+                <div
+                    style="width: 60px; height: 3px; background: var(--accent-blue); margin: 0.5rem auto; border-radius: 2px;">
+                </div>
+            </div>
+
+            <div class="timeline-container fade-in-up">
+                <!-- Timeline Item 1 -->
+                <!-- <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card" style="border: 1px solid var(--accent-blue);">
+                        <h3>Cientista/Analista de Dados</h3>
+                        <span class="timeline-date">Consultoria em Dados &bull; 2025 - Presente</span>
+                        <p>Desenvolvimento de dashboards interativos no Power BI, modelagem de dados em SQL e implementação de modelos de Machine Learning e soluções em Inteligência Artificial.</p>
+                    </div>
+                </div> -->
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Analista de Dados/ Desenvolvedor Web</h3>
+                        <span class="timeline-date">CLAM &bull; 2023 - 2025</span>
+                        <p style="margin-bottom: 2rem;">Desenvolvimento de plataformas na web, dashboards interativos no
+                            Power BI, modelagem de dados em SQL e NoSQL e análise de dados usando Python.</p>
+
+                        <!-- Projects List -->
+                        <div class="projects-list-container"
+                            style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 2rem;">
+                            <h4
+                                style="margin-bottom: 1.5rem; font-size: 1.15rem; color: var(--text-primary); display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-feather="briefcase"
+                                    style="width: 20px; height: 20px; color: var(--accent-blue);"></i> Principais
+                                Projetos
+                            </h4>
+
+                            <div class="projects-list" style="display: flex; flex-direction: column; gap: 1.5rem;">
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Sistema de Controle de Acesso e Gestão de Usuários (Identity Management)</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Desenvolvimento Full Stack com
+                                        foco em segurança e controle de permissões.</p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">React.js</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Redux</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Node.js/Express</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">MongoDB</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Monitoramento de Frotas em Tempo Real</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Criação de sistema interativo
+                                        para rastreamento veicular, envio de notificações e armazenamento de infrações.
+                                    </p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">TypeScript</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">React.js</span>
+                                        <span class="skill-tag" style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">RTK
+                                            Query</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Node.js/Express</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">MongoDB</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Jest</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Sistema de Gestão de Conhecimento Corporativo</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Desenvolvimento de plataforma
+                                        centralizada para capital intelectual da empresa.</p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">React.js</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Redux</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Node.js</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Express</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">MongoDB</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Aplicação Desktop para Relatórios (BI)</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Desenvolvimento de software
+                                        desktop para visualização de dados e estudos estratégicos.</p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Electron</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">React</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">SQL</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Sistema de Gestão de Ativos</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Aplicação para rastreamento de
+                                        equipamentos corporativos.</p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">React.js</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Zustand</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Node.js</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">Express</span>
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">MongoDB</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-item glass-card"
+                                    style="padding: 1.5rem; background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); transition: transform 0.3s ease;">
+                                    <h5 style="color: var(--accent-blue); font-size: 1.05rem; margin-bottom: 0.5rem;">
+                                        Web Institucional</h5>
+                                    <p style="font-size: 0.95rem; margin-bottom: 1rem;">Manutenção e criação de novas
+                                        interfaces e páginas utilizando WordPress (Site CLAM).</p>
+                                    <div class="skills-list" style="margin-top: 0; gap: 0.5rem;">
+                                        <span class="skill-tag"
+                                            style="padding: 0.3rem 0.8rem; font-size: 0.8rem;">WordPress</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section container section-padding">
+            <div class="section-header fade-in-up">
+                <h2>Formação Acadêmica</h2>
+                <div
+                    style="width: 60px; height: 3px; background: var(--accent-blue); margin: 0.5rem auto; border-radius: 2px;">
+                </div>
+            </div>
+
+            <div class="timeline-container fade-in-up">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Pós-Graduação em Inteligência Artificial e Aprendizado de Máquina</h3>
+                        <span class="timeline-date">PUC MINAS &bull; 2025 - 2026</span>
+                        <p>Especialização em IA e Machine Learning, com foco em desenvolvimento de soluções inovadoras e
+                            aplicadas ao mercado.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Graduação em Análise e Desenvolvimento de Sistemas</h3>
+                        <span class="timeline-date">UNICESUMAR &bull; 2017 - 2020</span>
+                        <p>Formação sólida em desenvolvimento de software, com foco em análise e soluções de problemas
+                            através da tecnologia.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="projects" class="projects-section container section-padding">
             <div class="section-header fade-in-up">
-                <h2>Projetos em Destaque</h2>
-                <p>Confira alguns dos meus trabalhos recentes.</p>
+                <h2>Projetos Pessoais</h2>
+                <p>Confira alguns dos meus projetos.</p>
             </div>
-            
+
             <!-- Swiper Carousel -->
             <div class="swiper-container featured-projects swiper fade-in-up">
                 <div class="swiper-wrapper">
                     <!-- Slide 1 -->
                     <div class="swiper-slide">
-                        <a href="#" target="_blank" class="project-card-link">
+                        <a href="https://dashboard-gamma-jade.vercel.app/" target="_blank" class="project-card-link">
                             <article class="project-card">
                                 <div class="project-image">
                                     <img src="assets/project1.png" alt="Dashboard de Analytics">
                                     <div class="overlay">
-                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
-                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i
+                                                data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="project-content">
                                     <h3>Dashboard de Gerencimanento de atividades</h3>
-                                    <p>Um dashboard abrangente para gerenciar atividades domesticas, de lazer e educacionais.</p>
+                                    <p>Um dashboard abrangente para gerenciar atividades domesticas, de lazer e
+                                        educacionais.</p>
                                     <div class="project-tags">
                                         <span>React</span>
                                         <span>Node.js</span>
@@ -157,13 +356,15 @@
 
                     <!-- Slide 2 -->
                     <div class="swiper-slide">
-                        <a href="#" target="_blank" class="project-card-link">
+                        <a href="https://ecommerce-opal-psi-29.vercel.app/" target="_blank" class="project-card-link">
                             <article class="project-card">
                                 <div class="project-image">
                                     <img src="assets/project2.png" alt="Plataforma de E-commerce">
                                     <div class="overlay">
-                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
-                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i
+                                                data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="project-content">
@@ -185,13 +386,15 @@
 
                     <!-- Slide 3 -->
                     <div class="swiper-slide">
-                        <a href="#" target="_blank" class="project-card-link">
+                        <a href="https://buscador-filmes-series.vercel.app/" target="_blank" class="project-card-link">
                             <article class="project-card">
                                 <div class="project-image">
                                     <img src="assets/project3.png" alt="Aplicativo de Viagem">
                                     <div class="overlay">
-                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i data-feather="external-link"></i></div>
-                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Projeto"><i
+                                                data-feather="external-link"></i></div>
+                                        <div class="btn btn-icon" aria-label="Ver Código"><i data-feather="github"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="project-content">
@@ -204,7 +407,7 @@
                                         <span>PostgreSQL</span>
                                         <span>Node.js</span>
                                         <span>Express.js</span>
-                                        
+
                                     </div>
                                 </div>
                             </article>
@@ -219,45 +422,63 @@
             </div>
         </section>
 
+
         <section id="contact" class="contact-section container section-padding">
-            <div class="glass-card contact-wrapper fade-in-up">
-                <div class="contact-content">
-                    <h2>Vamos trabalhar juntos</h2>
-                    <p>Tem um projeto em mente? Preencha os detalhes abaixo e entrarei em contato em breve.</p>
-                    <div class="contact-info">
-                        <div class="info-item">
-                            <i data-feather="mail"></i>
-                            <span>spacelooktech@gmail.com</span>
+            <div class="section-header fade-in-up">
+                <h2>Entre em Contato</h2>
+                <div
+                    style="width: 60px; height: 3px; background: var(--accent-blue); margin: 0.5rem auto; border-radius: 2px;">
+                </div>
+            </div>
+
+            <div class="contact-redesign-wrapper fade-in-up">
+                <!-- Left Column -->
+                <div class="contact-info-column"
+                    style="display: flex; flex-direction: column; justify-content: center;">
+                    <h3 style="font-size: 2.2rem; margin-bottom: 1.5rem; line-height: 1.3;">Vamos trabalhar juntos!</h3>
+                    <p style="margin-bottom: 2.5rem; font-size: 1.1rem;">Sinta-se à vontade para me contatar. Busco
+                        sempre novos desafios e oportunidades.</p>
+
+                    <div class="contact-info" style="margin: 0; gap: 1.5rem;">
+                        <div class="info-item" style="font-size: 1.1rem; font-weight: 500;">
+                            <i data-feather="message-circle" style="color: var(--accent-blue);"></i>
+                            <span>(53) 98115-7066</span>
                         </div>
-                        <div class="info-item">
-                            <i data-feather="map-pin"></i>
-                            <span>Pelotas - RS, Brasil</span>
+                        <div class="info-item" style="font-size: 1.1rem; font-weight: 500;">
+                            <i data-feather="linkedin" style="color: var(--accent-blue);"></i>
+                            <span>linkedin.com/in/lucas-peil-169a80239/</span>
                         </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin"></i></a>
-                        <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <div class="info-item" style="font-size: 1.1rem; font-weight: 500;">
+                            <i data-feather="github" style="color: var(--accent-blue);"></i>
+                            <span>github.com/LucasPeil</span>
+                        </div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name" placeholder="Seu Nome" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Mensagem</label>
-                        <textarea id="message" rows="4" placeholder="Conte-me sobre o seu projeto..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-                </form>
+
+                <!-- Right Column (Form) -->
+                <div class="glass-card fade-in-up" style="animation-delay: 0.2s;">
+                    <form class="contact-form" id="whatsappForm" style="padding: 2.5rem;">
+                        <div class="form-group">
+                            <input type="text" id="waName" placeholder="Seu Nome" required
+                                style="background: rgba(15, 23, 42, 0.8);">
+                        </div>
+                        <div class="form-group" style="position: relative; margin-bottom: 0.5rem;">
+                            <textarea id="waMessage" rows="5" maxlength="150"
+                                placeholder="Sua Mensagem (máx. 150 caracteres)" required
+                                style="background: rgba(15, 23, 42, 0.8); resize: none; margin-bottom: 0.5rem;"></textarea>
+                            <div id="charCount" class="char-counter"
+                                style="text-align: right; font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.5rem;">
+                                0 / 150 caracteres</div>
+                        </div>
+                        <button type="submit" class="btn btn-whatsapp submit-btn">
+                            Enviar pelo WhatsApp <i data-feather="message-circle"
+                                style="width: 18px; height: 18px; margin-left: 0.5rem;"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
+
     </main>
 
     <footer class="container footer">
@@ -276,4 +497,5 @@
         feather.replace();
     </script>
 </body>
+
 </html>
