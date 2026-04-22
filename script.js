@@ -17,31 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const fadeElements = document.querySelectorAll('.fade-in-up');
   fadeElements.forEach((el) => observer.observe(el));
 
-  // Initialize Swiper Carousel
-  const swiper = new Swiper('.featured-projects', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    centeredSlides: false,
-    loop: false,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 40,
-      },
-    },
-  });
+  // Removed Swiper
 
   // Smooth Scrolling for Navigation Links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
